@@ -1,0 +1,119 @@
+*{ 
+     margin:0;
+     padding:0;
+}
+body{
+    background: #FAFAFA;
+    height:1449px;
+}
+header {
+     display: flex;
+}
+header h1{
+     margin:119px 0px 0px 234px;
+     font-family: 'PT Serif', serif;
+     color: #000;
+     font-size: 36px;
+     font-weight: 700;
+     letter-spacing: -1.62px;
+}
+header div{
+      margin:119px 0px 0px 215px;
+}
+header div h2{
+    color: #000;
+    font-size: 18px;
+    font-family:' Poppins',sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+header div p{
+     width:439px;
+     color: #000;
+     font-size: 18px;
+     font-family: 'Poppins', sans-serif;
+     margin-top:10px;
+
+     line-height:25px;
+}
+#container{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin:88px 0px 0px 240px;
+}
+#container div{
+    width:250px;
+    position:relative;
+
+    
+}
+#container div img{
+      width:238px;
+}
+.profession{
+  position:absolute;
+  white-space: nowrap;
+  top:0;
+  left:100%;
+  transform:rotate(90deg);
+  transform-origin: left top 0;
+  font-size: 12px;
+  font-family: PT Serif;
+  text-transform: uppercase;
+  margin-left:20px;
+  letter-spacing: 1.02px;
+ 
+}
+.name{
+    margin-top:15px;
+    color: #000;
+    font-size: 18px;
+    font-family:' Poppins',sans-serif;
+    font-weight: 600;
+}
+#card-2{
+    margin-top: 88px;
+}
+#card-5{
+     margin-top:88px;
+}
+@media screen and (max-width:376px){
+        header{ 
+             display: flex;
+             flex-direction: column;
+        }
+       header h1{
+           margin:71px 0px 0px 12px;
+           white-space: nowrap;
+       }
+       header div{
+         margin:38px 0px 0px 12px;
+       }
+       header div p{
+          font-size: 14px;
+       }
+       #container{
+           display:grid;
+              grid-template-columns: 1fr 1fr;
+              margin:38px 0px 0px 12px;
+       }
+       #container div{
+          width:138px;
+       }
+       #container div img{
+          width:138px;
+       }
+       #card-2{
+            margin-top: 64px;
+       }
+       #card-4{
+         margin-top:64px;
+       }
+       #card-6{
+            margin-top:64px;
+       }
+       #card-5{
+         margin-top:0;
+       }
+    
+}
